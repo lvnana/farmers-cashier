@@ -1,0 +1,68 @@
+/*
+Write your variables here. All available variables can be
+found in element-ui/packages/theme-chalk/src/common/var.scss.
+For example, to overwrite the theme color:
+*/
+$--color-primary: teal;
+
+/* icon font path, required */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+.el-tabs--card > .el-tabs__header .el-tabs__item.is-active {
+  /* border-bottom-color: #FFFFFF; */
+  background-color: #0099CC;
+  color: white;
+}
+.el-tabs--card > .el-tabs__header .el-tabs__item {
+  background-color: #00CCCC;
+  color:white;
+  border-radius:5px;
+}
+.el-tabs__item {
+  padding: 0 16px;
+  height: 54px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 54px;
+  display: inline-block;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #303133;
+  position: relative;
+  margin: 0px 5px;
+}
+.el-tabs--card > .el-tabs__header .el-tabs__nav {
+  /* border: 1px solid #E4E7ED; */
+  border-bottom: none;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.el-tabs--card > .el-tabs__header {
+  border:0;
+}
+.el-tabs__nav-next, .el-tabs__nav-prev {
+  position: absolute;
+  cursor: pointer;
+  line-height: 54px;
+  font-size: 24px;
+  color: white;
+  padding: 0 5px;
+  background-color: #93B6B5;
+}
+.el-tabs__nav-scroll {
+  width: 95%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.el-tabs__nav-wrap.is-scrollable {
+  padding: 0 30px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.el-tabs__content {
+  overflow: auto;
+  position: relative;
+}
